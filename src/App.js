@@ -1,7 +1,12 @@
 import React from 'react';
+import { BrowserRouter } from '../node_modules/react-router-dom'
+import LoggedHome from './components/home/LoggedHome'
+
 function App() {
   return (
-    <button className="btn btn-primary">Teste bootstrap</button>
+      <BrowserRouter>
+        <LoggedHome />
+      </BrowserRouter>
   );
 }
 
