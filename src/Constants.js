@@ -1,4 +1,4 @@
-export const COMPANY_NAME = 'Bar do Gê';
+export const COMPANY_NAME = 'NF MANAGER';
 export const CURRENT_YEAR = '2020';
 export const LOGIN_MSG = 'Por favor, faça o login';
 export const EMAIL = 'Email';
