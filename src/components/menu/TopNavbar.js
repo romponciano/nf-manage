@@ -7,7 +7,7 @@ const logo = require('../../assets/logo.png')
 
 const TopNavbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg navbar bg-dark topbar">
+    <nav class="navbar fixed-top navbar-expand-lg navbar bg-dark topbar">
       <Link to='/home' className="text-white navbar-brand">
         <img alt="Cheers" src={logo} width="60px" height="60px" />
         <b>{COMPANY_NAME}</b>
