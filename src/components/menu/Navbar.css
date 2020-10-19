@@ -21,3 +21,9 @@
   font-size: 1.5em !important;
   vertical-align: middle;
 }
+
+.content {
+  margin-top: 5em !important;
+  margin-left: 5em !important;
+  width: 100vh !important;
+}
